@@ -1,0 +1,13 @@
+3) Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+-->1. Validate the data.
+2. Encrypt requests and responses.
+3. Share only necessary information.
+4. Use an API gateway.
+5. Use tokens.
+6. Authenticate and authorize.
+7. Choose your web services API.
+8. Use encryption and signatures.
+
+
+
