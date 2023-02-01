@@ -1,0 +1,24 @@
+1. To tackle the challenge above, I would first parse the CSV input file and store the
+values and formulas in a data structure, such as a 2-dimensional array. I would
+then iterate through the array, checking each cell to see if it contains a formula or
+a value. If the cell contains a formula, I would use a library, such as the one
+provided by the programming language, to evaluate the formula and replace it
+with the calculated value. If the cell contains a value, I would leave it as is. Finally,
+I would write the modified data structure to a new CSV output file.
+2. Some types of errors I would check for include:
+● Incorrectly formatted formulas.
+● Circular references in formulas.
+● Incorrectly formatted CSV input file.
+● Missing or extra delimiters in the CSV input file.
+● Missing values or formulas in the input file.
+● Excessively large input files that might cause memory issues.
+3. A user could potentially break the code by:
+● Providing an input file with a large number of circular references in formulas,
+causing the program to go into an infinite loop.
+● Providing an input file with a large number of formulas, causing performance
+issues.
+● Providing an input file with an incorrect delimiter, causing parsing errors.
+● Providing an input file with very large values, causing overflow errors.
+● Attempting to pass in malicious formulas that could cause security issues.
+● Making an incorrect assumption about the format of the input file and providing
+an input file that does not match the expected format.
